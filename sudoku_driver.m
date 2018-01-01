@@ -31,6 +31,9 @@ elseif flag == 2
 elseif flag == 3
     disp('Loading a level1 Sudoku puzzle (solvable by first-order logic)');
     load('level1.mat');
+elseif flag == 4
+    disp('Loading level 5!');
+    load('level5.mat');
 else
     error('Please enter a valid starting choice!');
 end
